@@ -117,12 +117,16 @@ public class CloudFuncModule {
 
         @Override
         protected void onPreExecute() {
-            cloudFuncRunnableModule.onCreated();
+            if(cloudFuncRunnableModule != null) {
+                cloudFuncRunnableModule.onCreated();
+            }
         }
 
         @Override
         protected void onPostExecute(String s) {
-            cloudFuncRunnableModule.onFinished(s);
+            if(cloudFuncRunnableModule != null) {
+                cloudFuncRunnableModule.onFinished(s);
+            }
         }
     }
 
