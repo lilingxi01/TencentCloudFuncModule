@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TencentCloudFuncModule.iml" filepath="$PROJECT_DIR$/TencentCloudFuncModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudFuncModule/cloudFuncModule.iml" filepath="$PROJECT_DIR$/cloudFuncModule/cloudFuncModule.iml" />
     </modules>
   </component>
 </project>

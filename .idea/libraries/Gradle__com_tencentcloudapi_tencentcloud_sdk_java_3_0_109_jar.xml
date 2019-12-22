@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencentcloudapi:tencentcloud-sdk-java:3.0.109@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencentcloudapi/tencentcloud-sdk-java/3.0.109/e13d1eb8bf62865cd6f2f6153dfcbcd6f4a8453c/tencentcloud-sdk-java-3.0.109.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencentcloudapi/tencentcloud-sdk-java/3.0.109/60a509bc7ff2108b4665212e94b441d52094bbda/tencentcloud-sdk-java-3.0.109-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tencentcloudapi/tencentcloud-sdk-java/3.0.109/6f6925c2fd23993e2871722406eb517e05d91951/tencentcloud-sdk-java-3.0.109-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
