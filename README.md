@@ -1,4 +1,5 @@
-# TencentCloudFuncModule
+# TencentCloudFuncModule [![](https://www.jitpack.io/v/lilingxi01/TencentCloudFuncModule.svg)](https://www.jitpack.io/#lilingxi01/TencentCloudFuncModule)
+
 本模块用于快速调用腾讯云的云函数功能，你需要的一切都已经完美集成，尽情享用吧！
 <br>
 > **腾讯云函数的调用从未如此从容！**
@@ -19,7 +20,7 @@
 2. 在app文件夹下的build.gradle中添加以下依赖
 
     	dependencies {
-    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:Tag'
+    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:v1.0'
     	}
 
 ## 使用方法
