@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fca7f95-f3e7-4e88-bc5c-ec81c96a6c29" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/cloudFuncModule/src/main/java/cn/tacitech/cloudfuncmodule/CloudFuncModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudFuncModule/src/main/java/cn/tacitech/cloudfuncmodule/CloudFuncModule.java" afterDir="false" />
-    </list>
+    <list default="true" id="1fca7f95-f3e7-4e88-bc5c-ec81c96a6c29" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
