@@ -31,7 +31,12 @@
    	
 SecretId和SecretKey用于调用您的腾讯云资产，在控制台能找到<br>
 Your Region对应的是您云函数所选的服务器位置，在腾讯云文档里有对应代码说明，如上海为 ap-shanghai<br>
-若您的云函数位于不同账户、不同位置，那么可以在每次调用前（下列代码）都分别设置一次不同的基础信息
+若您的云函数位于不同账户、不同位置，那么可以在每次调用前（下列代码）都分别设置一次不同的基础信息<br>
+
+若您需要自定义endpoint（非专业人士不建议尝试），请使用该拓展方法：
+   	
+   	CloudFuncModule.setBasicInfo("Your SecretId", "Your SecretKey", "Your endpoint", "Your Region");
+	
 
 ### 2. 在需要调用云函数的位置创建模块
     	
@@ -70,10 +75,10 @@ Key和Value对应键名与值
 
 ## 完整调用示例
 
-   	// 这部分在程序开始时就可以进行基础信息的配置了
+   	// 在App启动时或调用模块前进行基础信息配置
 	CloudFuncModule.setBasicInfo("Your SecretId", "Your SecretKey", "Your Region");
 	
-	// 这部分是模块的调用部分
+	// 调用模块核心
 	CloudFuncModule cloudFuncModule = new CloudFuncModule("Your Function Name");
 	cloudFuncModule.addParameter("Key", "Value");
 	cloudFuncModule.setCloudFuncRunnableModule(new CloudFuncModule.CloudFuncRunnableModule() {
