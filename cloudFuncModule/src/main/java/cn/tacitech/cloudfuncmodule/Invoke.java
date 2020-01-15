@@ -50,7 +50,6 @@ public class Invoke {
 
     public String getResult(){
         try {
-            // TODO 需要隐藏
             Credential cred = new Credential(secretId, secretKey);
             HttpProfile httpProfile = new HttpProfile();
             httpProfile.setEndpoint(endpoint);
@@ -75,7 +74,9 @@ public class Invoke {
         JSONObject jObject = JSONObject.parseObject(parameter);
         Set<Map.Entry<String, Object>> set = jObject.entrySet();
         for (Map.Entry<String, Object> i: set){
-            result = result + "\\\"" + i.getKey() + "\\\":\\\"" + i.getValue().toString() + "\\\",";
+            String value = i.getValue().toString();
+            value = value.replaceAll("\\n", "\\\\\\\\n");
+            result = result + "\\\"" + i.getKey() + "\\\":\\\"" + value + "\\\",";
         }
         result = result.substring(0, result.length() - 1);
         result = result + "}";
