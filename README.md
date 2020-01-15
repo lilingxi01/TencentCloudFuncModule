@@ -4,6 +4,8 @@
 <br>
 > **腾讯云函数的调用从未如此从容！**
 
+> 已修复包含换行符时无法调用云函数的Bug！
+
 <br><br>
 
 ## 导入方法
@@ -20,7 +22,7 @@
 2. 在app文件夹下的build.gradle中添加以下依赖
 
     	dependencies {
-    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:v1.0'
+    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:v1.1'
     	}
 
 ## 使用方法
