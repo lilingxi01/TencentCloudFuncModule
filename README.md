@@ -20,7 +20,7 @@
 2. 在app文件夹下的build.gradle中添加以下依赖
 
     	dependencies {
-    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:v1.0'
+    		implementation 'com.github.lilingxi01:TencentCloudFuncModule:v1.1'
     	}
 
 ## 使用方法
