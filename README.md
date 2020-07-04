@@ -9,6 +9,8 @@
 <br><br>
 
 ## 导入方法
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule?ref=badge_shield)
+
 
 1. 在根目录的build.gradle中添加以下依赖
 
@@ -97,3 +99,7 @@ Key和Value对应键名与值
 	cloudFuncModule.start();
 
 **享受这美妙而从容的时刻吧！**
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule?ref=badge_large)
