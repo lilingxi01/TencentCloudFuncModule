@@ -1,4 +1,6 @@
-# TencentCloudFuncModule [![](https://www.jitpack.io/v/lilingxi01/TencentCloudFuncModule.svg)](https://www.jitpack.io/#lilingxi01/TencentCloudFuncModule)
+# TencentCloudFuncModule
+[![](https://www.jitpack.io/v/lilingxi01/TencentCloudFuncModule.svg)](https://www.jitpack.io/#lilingxi01/TencentCloudFuncModule)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule?ref=badge_shield)
 
 本模块用于快速调用腾讯云的云函数功能，你需要的一切都已经完美集成，尽情享用吧！
 <br>
@@ -9,8 +11,6 @@
 <br><br>
 
 ## 导入方法
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flilingxi01%2FTencentCloudFuncModule?ref=badge_shield)
-
 
 1. 在根目录的build.gradle中添加以下依赖
 
